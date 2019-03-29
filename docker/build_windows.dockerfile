@@ -8,7 +8,10 @@ RUN apt-get update -y && \
       git \
       git-lfs \
       sudo \
-      software-properties-common
+      software-properties-common \
+      ttf-mscorefonts-installer \
+      wine-stable \
+      wine32
 
 RUN git lfs install
 
